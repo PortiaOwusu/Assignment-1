@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-size: 10px;
+}
+
+header {
+  /* background-color: aqua; */
+  font-size: 1.5rem;
+  height: 90px;
+  padding: 0rem 1.5rem;
+}
+
+nav {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: chartreuse; */
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  font: italic;
+  border: 0.5px solid white;
+  padding: 2rem 2rem;
+  background-color: powderblue;
+  text-decoration-color: rgb(247, 243, 230);
+}
+
+nav li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+
+span {
+  font-style: italic;
+  text-decoration-color: rgb(228, 78, 24);
+}
+
+.round {
+  height: 100%;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.round p {
+  font-size: 2rem;
+  margin-top: 11rem;
+}
+
+h2 {
+  width: 100%;
+  font-size: 2.5rem;
+  font-style: italic;
+  margin-top: 3rem;
+}
+
+hr {
+  width: 10%;
+  margin: 0 auto;
+  height: 0.2rem;
+  background: coral;
+  border: none;
+  margin-top: 2rem;
+}
+
+.food {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  margin-top: 10%;
+  margin-bottom: 20rem;
+}
+
+.circle {
+  height: 20rem;
+  width: 20rem;
+  background-color: darkgoldenrod;
+  margin: 1rem;
+  border-radius: 50%;
+  background-image: url(./chocolate-cupcake-20.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.circles {
+  height: 20rem;
+  width: 20rem;
+  background-color: darkorange;
+  margin: 1rem;
+  border-radius: 50%;
+  background-image: url(./pumpkin-chocolate-chip-cookies-horizontal-1529964207.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.circless {
+  height: 20rem;
+  width: 20rem;
+  background-color: deeppink;
+  margin: 1rem;
+  border-radius: 50%;
+  background-image: url(./f9628fe466dbde785e709976000fe402.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.third p {
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-top: 10rem;
+}
+.third-m {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(252, 165, 5);
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+}
+
+.third-1 {
+  width: 50%;
+  height: 100;
+  background-color: deepskyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.third {
+  /* background-color: deeppink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.box-1 {
+  width: 50%;
+  height: 100vh;
+  background-color: dimgrey;
+  display: flex;
+  align-items: flex-end;
+}
+.box-2 {
+  height: 98vh;
+  width: 30rem;
+  background-color: darkorange;
+  margin: 1rem;
+  background-image: url(./119120039_747076072746766_6344907498753150138_n.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-3 {
+  height: 98vh;
+  width: 30rem;
+  background-color: darkorange;
+  margin: 1rem;
+  background-image: url(./188b1b90fe9cb40eae44de07b587edfe.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* .box-4 {
+  height: 100vh;
+  width: 100vw;
+  background-color: slateblue;
+  margin: 1rem;
+  background-image: url(./2FC98C52-7814-43C2-B09D-A489A3AECB54.jpg);
+  background-size: cover;
+  background-position: center;
+} */
+
+.box-5 {
+  height: 98vh;
+  width: 30rem;
+  background-color: darkorange;
+  margin: 1rem;
+  background-image: url(./background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.rect-m {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+.rect-m p {
+  font-size: 3rem;
+  margin-top: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.rect-1 {
+  height: 80vh;
+  width: 50vw;
+  background-color: darkgoldenrod;
+  margin: 1rem;
+  background-image: url(./stressfreefullenglis_67721_16x9.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.rect-2 {
+  height: 80vh;
+  width: 50vw;
+  background-color: darkorange;
+  margin: 1rem;
+  background-image: url(./food.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.rect-3 {
+  height: 80vh;
+  width: 50vw;
+  background-color: deeppink;
+  margin: 1rem;
+  background-image: url(./leaf_Ghana_news.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bread {
+  /* display: flex; */
+  flex-direction: initial;
+  align-content: space-around;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  margin-bottom: 0rem;
+  /* background-color: silver; */
+}
+
+.pics {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.pics-1 {
+  height: 20rem;
+  width: 20rem;
+  background-color: darkorange;
+  /* margin: 1rem; */
+  border-radius: 50%;
+  background-image: url(./041017_best_international_breads_pies_and_pa.max-784x410_j6jzTjX.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pics-2 {
+  height: 20rem;
+  width: 20rem;
+  background-color: darkorange;
+  /* margin: 1rem; */
+  border-radius: 50%;
+  background-image: url(./188b1b90fe9cb40eae44de07b587edfe.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pics-3 {
+  height: 20rem;
+  width: 20rem;
+  background-color: darkorange;
+  /* margin: 1rem; */
+  border-radius: 50%;
+  background-image: url(./chocolate-cupcake-20.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pics-4 {
+  height: 20rem;
+  width: 20rem;
+  background-color: darkorange;
+  /* margin: 1rem; */
+  border-radius: 50%;
+  background-image: url(./2FC98C52-7814-43C2-B09D-A489A3AECB54.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div h4 {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 0rem;
+}
+.bread button {
+  border-radius: 5rem;
+  border: 2px solid black;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 25rem;
+  margin-left: 22rem;
+  font-family: cursive;
+}
+
+.bread-button {
+  width: 80%;
+  /* height: 4rem; */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(182, 181, 181);
+}
+
+.back-image {
+  background: url("./Chocolate-Strawberry-Cupcakes-1-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.para-text {
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 20px;
+}
+
+.whole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.click input {
+  width: 200px;
+  padding: 20px;
+}
+
+.click button {
+  width: 201px;
+  padding: 18px;
+}
+
+.last footer {
+  width: 100vw;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: rgb(187, 95, 29);
+}
+
+.last-1 {
+  /* background-color: blueviolet; */
+  font-size: 3rem;
+  font-family: cursive;
+  margin-top: 30%;
+  text-align: center;
+}
+.last ul {
+  margin-top: 30%;
+  margin-bottom: 10%;
+  height: 70%;
+  /* background-color: chartreuse; */
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.last-2 {
+  font-size: 1.5rem;
+  height: 70%;
+  /* background-color: coral; */
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.last-2 span {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.last-3 img {
+  height: 40px;
+  width: 40px;
+  margin-top: 100%;
+}
